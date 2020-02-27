@@ -8,4 +8,11 @@ class Boolack extends React.Component {
             date : ''
         }
     }
+    render(){
+        return (
+            <div>
+                <p> Hello</p>
+            </div>
+        )
+    }
 }
