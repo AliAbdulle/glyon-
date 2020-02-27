@@ -3,7 +3,7 @@ import{ bindActionCreators } from 'redux';
 import {initStore, initialCards, addItem} from '../store';
 import withRedux from 'next-redux-wrapper';
 import "./index.css";
-import Card from "./Card";
+import Card from "./Card.js";
 
 class Index extends React.Component {
   static async getInitialProps({ store }) {
