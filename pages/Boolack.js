@@ -3,7 +3,8 @@ import '/index.css';
 
 class Boolack extends React.Component {
     constructor() {
-        state = {
+        super(this.props);
+        this.state = {
             name: 'Ali',
             date : ''
         }
