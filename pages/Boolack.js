@@ -1,3 +1,4 @@
+//import all dependences
 import React from 'react';
 import '/index.css';
 
